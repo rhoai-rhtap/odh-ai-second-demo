@@ -30,12 +30,12 @@ USER 1001
 
 ENTRYPOINT ["/manager"]
 
-LABEL com.redhat.component="odh-maas-controller-rhel9" \
-      name="rhoai/odh-maas-controller-rhel9" \
-      description="odh-maas-controller" \
-      summary="odh-maas-controller" \
-      maintainer="['managed-open-data-hub@redhat.com']" \
+LABEL com.redhat.component="odh-ai-second-demo-rhel9" \
+      name="rhoai/odh-ai-second-demo-rhel9" \
+      description="odh-ai-second-demo" \
+      summary="odh-ai-second-demo" \
+      maintainer="odh-ai-second-demo" \
       io.openshift.expose-services="" \
-      io.k8s.display-name="odh-maas-controller" \
-      io.k8s.description="odh-maas-controller" \
+      io.k8s.display-name="odh-ai-second-demo" \
+      io.k8s.description="odh-ai-second-demo" \
       com.redhat.license_terms="https://www.redhat.com/licenses/Red_Hat_Standard_EULA_20191108.pdf"
